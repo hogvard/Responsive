@@ -1,0 +1,93 @@
+
+@font-face {
+    font-family: Athletic;
+    src: url(athletic.ttf);
+  }
+body{
+  background-color: darkgray;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  animation: transitionIn .5s;
+}
+
+@keyframes transitionIn{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+} 
+  
+
+
+#edubrace {
+  position: absolute;
+  left: 50%;
+  margin-left: -10%;
+  top: 15%;
+}
+
+ul {
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: cyan;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+  font-family: Athletic;
+  font-size: x-large;
+}
+
+.contact h1 {
+  font-family: "Lato", sans-serif;
+  color: aqua;
+  align-items: center;
+}
+
+.contact {
+  padding: 10%;
+  color: rgb(0, 0, 0);
+  background-color: darkgray;
+  font-family: "Lato", sans-serif;
+}
+
+.contact input[type=text], textarea {
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(225, 224, 224);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+button[type=send] {
+  font-size: 16px;
+  background-color: rgb(23, 23, 24);
+  color: rgb(225, 224, 224);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type=send]:hover {
+  background-color: rgb(59, 59, 59);
+}
+

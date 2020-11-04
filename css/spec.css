@@ -1,0 +1,72 @@
+
+@font-face {
+    font-family: Athletic;
+    src: url(athletic.ttf);
+  }
+body{
+  background-color: darkgray;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  animation: transitionIn .5s;
+}
+
+@keyframes transitionIn{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+} 
+  
+
+
+#edubrace {
+  position: absolute;
+  left: 50%;
+  margin-left: -10%;
+  top: 15%;
+}
+
+#arrowL{
+  position: absolute;
+  top: 50%;
+  margin-top: -3;
+  left: 30%;
+  outline: none;
+  
+} 
+#arrowR{
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 50%;
+  margin-top: -3;
+  right: 30%;
+  outline: none;
+} 
+
+ul {
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: cyan;
+  text-align: center;
+  padding: 20px 25px;
+  text-decoration: none;
+  font-family: Athletic;
+  font-size: x-large;
+}
+
+
+

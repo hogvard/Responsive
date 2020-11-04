@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(0, 48, 109);
+    background-image: linear-gradient(to right, rgb(0, 48, 109), rgb(224, 0, 0));
+    color: rgb(225, 224, 224);
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    min-height: calc(100vh - 46.67px - 70px);
+    }
+    
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgba(224, 0, 0,0.9);
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a {
+        display: block;
+        color: rgb(225, 224, 224);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }   
+    
+    li a:hover {
+        background-color: rgb(175, 0, 0);
+    }
+    
+    .logo {
+        width: 74px;
+        height: auto;
+        border-radius: none;
+        margin-left: 47.2%;
+        overflow: hidden;
+        position: absolute;
+    }
+
+    input[type=søk] {
+        float: right;
+        padding: 4px;
+        border-radius: 5px;
+        border: none;
+        margin-top: 10px;
+        margin-left: 70%;
+        font-size: 15px;
+        color: rgb(225, 224, 224);
+        background-color: rgba(140, 0, 0, 0.8);
+        position: absolute;
+        resize: vertical;
+    }
+
+    .kontakt input[type=text], textarea {
+        font-family: "Lato", sans-serif;
+        width: 100%;
+        padding: 12px;
+        border: 1px solid rgb(225, 224, 224);
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
+
+    .kontakt {
+        border-radius: 10px;
+        background-color: rgb(0, 34, 78);
+        padding: 40px;
+        display: block;
+    }
+
+    button[type=send_inn] {
+        font-size: 16px;
+        background-color: rgb(0, 48, 109);
+        color: rgb(225, 224, 224);
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+      
+    button[type=send_inn]:hover {
+        background-color: rgb(0, 73, 168);
+    }
+
+    footer {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgba(0, 48, 109,1);
+        height: 70px;
+        bottom: 0;
+    }
+
+    .innhold1 :hover, .innhold2 :hover, .innhold3 :hover {
+        background-color:rgb(0, 73, 168);
+    }
+
+    .innhold, .innhold1, .innhold2, .innhold3 {
+        display: block;
+        color: rgb(225, 224, 224);
+        text-align: center;
+        padding: 5px 16px;
+        text-decoration: none;
+        display: flex;
+    }
+
+    .innhold1, .innhold2, .innhold3 {
+        margin-left: 130px;
+        align-items: center;
+        color: rgb(225, 224, 224);
+        height: 50px;
+    }
+   
